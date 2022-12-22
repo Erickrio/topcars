@@ -1,4 +1,5 @@
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -12,9 +13,9 @@ const Home = () => {
             </p>
           </div>
           <div>
-            {/* <Link to="/products">
-              <ButtonIcon />
-            </Link> */}
+             <Link to="/products">
+             
+            </Link> 
           </div>
         </div>
         {/* <div className="home-image-container">
