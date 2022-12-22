@@ -1,52 +1,68 @@
 .main-nav {
-    padding: 0px 20px 0px 20px;
-    min-height: 70px;
-    background-color: #f78b00;
+  padding-left: 40px;
+  min-height: 70px;
+  background-color: #F78B00;
+  color: #00285F;
+
+}
+
+.nav-logo-text {
+  color: #00285F;
+  font-size: 24px;
+}
+
+.nav-logo-text:hover {
+  color: #00285F;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 380px;
+  justify-content: space-between;
+}
+
+.main-menu a {
+  font-style: normal;
+  color: #00285F;
+  text-decoration: none;
+}
+
+.main-menu a.active {
+  font-weight: bold;
+  color: #00285F;
+}
+
+.main-menu a:hover {
+  color: #00285F;
+}
+
+/* breackpoints - responsividades*/
+@media (min-width: 576px){
+  .main-nav{
+      padding: 25px 20px 17px;
   }
-  
-  
-  .nav-logo-text:hover {
-    color: #00285f;
-    position: absolute;
-    width: 117px;
-    height: 28px;
-    left: 20px;
-    top: 21px
+  .container-fluid{
+      padding: 0;
   }
-  
-  .nav-logo-text {
-    border: 0;
+}
+
+@media (min-width: 768px){
+  .main-menu{
+      width: 170px;
   }
-  
-  .navbar-toggler {
-    margin-top: 10px;
+
+  .nav-logo-text{
+      width: 130px;
   }
-  
-  .navbar-toggler:focus {
-    box-shadow: 0 0 0 0rem;
+
+  .navbar-collapse{
+      justify-content: flex-end;
   }
+
   
-  #topcars-navbar {
-    justify-content: center;
-  }
-  
-  .main-menu {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 24px;
-    width: 320px;
-  }
-  
-  .main-menu li {
-    font-size: 18px;
-    font-weight: 400;
-  }
-  
-  .main-menu a:hover {
-    color:#00285f;
-  }
-  
-  .main-menu a.active {
-    color:#00285f;
-    font-weight: bold;
-  }
+}
