@@ -4,11 +4,9 @@ const ButtonIcon = () => {
   return (
     <div className="btn-container">
         <button className="btn btn-primary ">
-          <h6>Digite Sua Busca</h6>
+          <h6>Ver Catálogo</h6>
         </button>
-      <div className="btn-icon-container">
-      
-      </div>
+       <p>Comece agora a navegar</p>
     </div>
   );
 };
