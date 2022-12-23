@@ -1,41 +1,40 @@
 .home-container {
-  padding: 10px;
-  font-size: 20px;
+  padding: 20px 10px 0px 10px;
+  font-size: 22px;
   text-align: center;
-  width: 100%;
 }
 
 .home-card {
   display: flex;
   flex-direction: column-reverse;
-  border-radius: 20px;
-  background-color:#00285F;
-  margin: 0 0 21px;
+  background: #00285f;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 .home-content-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 10px 51px 10px;
+  padding: 0px 22px 50px 22px;
 }
 
 .home-content-container h1 {
-  width: 260px;
-  font-size: 1em;
-  margin-bottom: 15px;
   color: #fff;
+  width: 255px;
+  font-size: 1em;
+  margin-bottom: 10px;
 }
 
 .home-content-container p {
-  width: 260px;
   color: #fff;
+  width: 255px;
   font-size: 0.6em;
 }
 
 .home-image-container {
-  padding: 62px 28px 35px;
-
+  padding: 62px 28px 35px 28px;
 }
 
 .home-image-container svg {
@@ -43,103 +42,115 @@
   height: auto;
 }
 
+.home-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-content-container p {
+  color: #585858;
+  font-size: 18px;
+}
+
 @media (min-width: 576px) {
   .home-container {
-      padding: 20px 20px 41px;
-      border-radius: 10px;
+    padding: 30px 20px 100px 20px;
+    font-size: 36px;
   }
 
-  .home-card{
-      width: 536px;
-      height: 365px;
+  .home-card {
+    margin-bottom: 30px;
+  }
+
+  .home-content-container {
+    margin: 0px 30px 5px 30px;
+    padding: 0px;
   }
 
   .home-content-container h1 {
-      width: 420px;
-      font-size: 36px;
+    width: 536px;
+    margin-bottom: 0px;
   }
 
   .home-content-container p {
-      width: 420px;
-      font-size: 18px;
+    width: 536px;
+    font-size: 17px;
+    margin: 0px 55px 40px 55px;
+    padding: 0px 70px;
   }
 
-  .home-image-container{
-      padding: 22px 28px 19px;
+  .home-image-container {
+    padding: 22px 100px 20px 100px;
   }
 
   .home-image-container svg {
-      width: 333px;
+    width: 335px;
+  }
+
+  .home-button-container {
+    flex-direction: row;
+    align-content: space-between;
+  }
+
+  .home-button-container p {
+    margin-top: 15px;
+  }
+
+  .button-content-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
   }
 }
 
 @media (min-width: 768px) {
-  .home-card{
-      width: 728px;
-      height: 475px;
-      padding: 79px 146px 37px 153px;
+  .home-image-container {
+    padding-top: 80px;
   }
 
-  .home-content-container h1{
-      font-size: 36px;
-      margin: 0;
+  .home-content-container {
+    padding-bottom: 15px;
   }
 }
 
 @media (min-width: 992px) {
-  .home-card {
-      padding: 82px 248px 124px;
-      width: 952px;
-      height: 579px;
-      
+  .home-image-container {
+    padding-top: 85px;
   }
 
-  .home-content-container{
-      padding: 0;
+  .home-image-container svg {
+    width: 455px;
   }
 
-  .home-content-container h1 {
-      font-size: 36px;
-  }
-
-
-  .home-image-container{
-      width: 455px;
-      padding: 0;
-  }
-
-  .home-image-container img {
-      width: 100%;
+  .home-content-container {
+    padding-bottom: 20px;
+    margin-bottom: 35px;
   }
 }
 
 @media (min-width: 1200px) {
-  .home-container{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+  .home-container {
+    padding: 30px 115px 100px 106px;
   }
+
   .home-card {
-      padding: 83px 78px;
-      width: 979px;
-      height: 365px;
-      flex-direction: row;
-      margin: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
   }
 
   .home-content-container {
-      padding: 20px;
-      text-align: left;
+    margin: 115px 30px 100px -20px;
+    padding: 0px 16px 0px 0px;
   }
 
   .home-image-container {
-      display: flex;
-      align-items: center;
-      padding: 20px;
+    padding: 65px 130px 0px 0px;
   }
 
   .home-image-container svg {
-      width: 100%;
+    width: 335px;
+    margin-left: -140px;
   }
 }

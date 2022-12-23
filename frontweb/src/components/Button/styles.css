@@ -1,60 +1,19 @@
 .btn-container {
-    display: flex;
-    flex-direction: column;
-    background-color: #EDEDED;
-    align-items: center;
-    border-radius: 10px;
-    padding: 28px 50px 25px;
+  display: flex;
 }
 
 .btn-container button {
-    border-radius: 5px;
-    background-color: #00285F;
-    width: 174px;
-    height: 40px;
-
-}
-
-.btn-container button:hover{
-    background-color: #00285F;
-}
-
-.btn-container p {
-    font-weight: 400;
-    font-size: 18px;
-    color: #585858;
-    margin: 9px 0 0;
+  border-radius: 5px;
+  background-color: #00285f;
+  height: 45px;
+  margin: 28px 60px 9px;
+  align-items: center;
+  text-align: center;
+  padding: 12px 38px 12px 45px;
 }
 
 .btn h6 {
-    color: #fff;
-    font-size: 14px;
-    text-transform: uppercase;
-}
-
-@media (min-width: 576px) {
-    .btn-container {
-        flex-direction: row;
-    }
-
-    .btn h6 {
-        font-size: 14px;
-    }
-
-    .btn-container p{
-        margin: 0 0 0 20px;
-    }
-}
-
-@media (min-width: 768px) {
-    .btn-container{
-        padding: 42px 230px 41px 105px;
-    }
-}
-
-@media (min-width: 1200px){
-    .btn-container{
-        width: 979px;
-        margin-top: 30px;
-    }
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
 }
