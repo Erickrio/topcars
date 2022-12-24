@@ -1,48 +1,46 @@
 .main-nav {
-    padding: 0px 20px 0px 20px;
-    min-height: 70px;
-    background-color: #F78B00;
+  padding: 0px 20px 0px 20px;
+  min-height: 70px;
+  background-color: #f78b00;
 }
-  
+
 .nav-logo-text {
-  color:  #00285f;;
+  color: #00285f;
 }
 
 .nav-logo-text:hover {
-    border: 0;
+  border: 0;
 }
 
 .navbar-toggler {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-  
-  .navbar-toggler:focus {
-    box-shadow: 0 0 0 0rem;
-  }
 
-  #topcars-navbar {
-    justify-content: center;
-  }
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0rem;
+}
+
+#topcars-navbar {
+  justify-content: center;
+}
 
 .main-menu {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 24px;
-    width: 320px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 24px;
+  width: 320px;
 }
 
 .main-menu li {
-    font-size: 18px;
-    font-weight: 400px;
+  font-size: 18px;
+  font-weight: 400px;
 }
 
 .main-menu a:hover {
-    color:#00285f;
+  color: #00285f;
 }
 
 .main-menu a.active {
-    color: #00285f;
-    font-weight: bold;
+  color: #00285f;
+  font-weight: bold;
 }
-
-
