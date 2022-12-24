@@ -2,9 +2,9 @@ import './styles.css';
 
 const Button = () => {
   return (
-    <div className="btn-container">
-        <button className="btn btn-primary">
-          <h6>ver catalogo</h6>
+    <div className="btn-home-container">
+        <button className="btn btn-home">
+          <span>ver catalogo</span>
         </button>
     </div>
   );
